@@ -1,0 +1,119 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+
+
+}
+
+header .logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+header nav {
+    display: flex;
+    gap: 60px;
+    margin:auto;
+
+}
+
+header nav a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: black;
+    font-weight: 700;
+    font-style: initial;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #ff4081;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero .intro {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero h1 span {
+    color: rgb(217, 15, 139);
+}
+
+.hero p {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.hero .skills {
+    display: flex;
+    gap: 10px;
+}
+
+.hero .skills a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+    margin: 30px;
+}
+
+.hero .skills a:hover {
+    background-color: #ff4081;
+    color: #fff;
+}
+
+.hero .profile {
+    max-width: 40%;
+}
+
+.hero .profile img {
+    width: 70%;
+    height: 70%;
+    border-radius: 20px;
+}
